@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio</title>
+
+    <!-- font awesome cdn link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+   <!-- custom css file link-->
+    <link rel="stylesheet" href="assets/main.css">
+
+    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+</head>
+
+<body>
+
+<!--header section start-->
+
+<header>
+    <div class="user">
+        <h3 class="name">Ruwanthika Harshani</h3>
+        <p class="post">Fresh Graduate</p>
+    </div>
+    <nav class="navbar">
+        <ul class="navbar">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#project">PROJECTS</a></li>
+            <li><a href="#technology">TECHNOLOGY</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!--header section end-->
+
+<div id="menu" class="fas fa-bars"></div>
+
+<!--home section start-->
+
+<section class="home" id="home">
+    <h3>HI THERE !</h3>
+    <h1>I'M <span>Ruwanthika Harshani</span></h1>
+    <p>Highly motivated and detail-oriented fresh graduate with strong programming skills. 
+        Experienced in software development through group projects and consider myself to be hardworking with the 
+        ability to learn new skills quickly.</p>
+    <a href="#about"><button class="btn">About me<i class="fas fa-user"></i></button></a>
+</section>
+
+<!--home section end-->
+
+
+<!--about section start-->
+
+<section class="about" id="about">
+    <h2 class="heading">LET ME INTRODUCE MY SELF</h2>
+    <div class="row">
+        <div class="info">
+            <h3><span>Name: </span> Ruwanthika Harshani</h3>
+            <h3><span>Qualification : </span> BSc Information &
+                            Communication Technology</h3>
+                            <h3><span> Languages :</span>Sinhala | English</h3><br>
+            
+                            <h3><span> Phone No :</span> +94 711500539</h3>
+                            <h3><span> Email :</span>ruwanthikapemarathna@gmail.com</h3><br>
+            <a href="#"><button class="btn" id="resume"  onclick="window.open('./assets/resume/R.H.Pemarathna.pdf')">Download CV <i
+                class="fa fa-download"></i> </button></a>
+        </div>
+
+        <div id="socials-container">
+            <button class="button"><span>more on me</span> </button>
+            <img
+              src="./assets/icons/linkedin.png"
+              alt="LinkedIn profile"
+              class="icon"
+              onclick="location.href='https://linkedin.com/in/ruwanthika'"
+            />
+            <img
+              src="./assets/icons/github.png"
+              alt="Github profile"
+              class="icon"
+              onclick="location.href='https://github.com/harshani95'"
+            />
+          </div>
+    </div>
+</section>
+
+<!--about  section end-->
+
+
+<!--project section start-->
+
+<section class="project" id="project">
+
+     <h1 class="heading"> Recent <span>Projects</span></h1><br><br>
+
+    <div class="box-container">
+        <div class="box-sub-container">
+            <div class="box">
+                <div class="image-container"><img src="assets/projects/p1.jpg" alt="" class="project-image"></div>
+                
+                <div class="content">
+                    <h3>Website For a Studio</h3><br>
+                    <span>PHP, JavaScript, CSS, HTML, Bootstrap</span><br><br><br>
+                    <button class="btn-show" id="btn-show-1">SHOW</button>
+                </div>
+            </div>
+            <div class="btn-container">
+                <button
+                  class="btn-proj" onclick="location.href=' https://harshani95.github.io/studio-website/'" >
+                  GITHUB
+                </button>
+                </div>
+        </div>
+
+        <div class="box-sub-container">
+            <div class="box">
+                <div class="image-container"><img src="assets/projects/p2.jpg" alt="" class="project-image"></div>
+                
+                <div class="content">
+                    <h3>Library Management System</h3><br>
+                    <span>C#</span><br><br><br>
+                    <button class="btn-show" id="btn-show-2">SHOW</button>
+                </div>
+            </div>
+        </div>
+       
+
+      <!-- < div class="box-sub-container">
+            <div class="box">
+                <div class="image-container"><img src="assets/projects/calculator.png" alt="" class="project-image"></div>
+                
+                <div class="content">
+                    <h3>Simple Calculator</h3><br>
+                    <span>HTML, CSS, JavaScript</span><br><br><br>
+                    <button class="btn-show" id="btn-show-3">SHOW</button>
+                </div>
+            </div>
+            <div class="btn-container">
+                <button
+                  class="btn-proj" onclick="location.href='https://github.com/harshani95'" >
+                  GITHUB
+                </button>
+                </div>
+        </div> -->   
+    </div>
+
+</section>
+
+<!--modal content-->
+
+<!--modal content 1-->
+
+<div id="my-modal-1" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+        <span class="close">&times;</span>
+        <h1>Amaya Studio & Digital Colour Lab</h1>
+        </div>
+
+        <div class="modal-body">
+            <div>
+                <img src="assets/projects/p1-1.jpeg" alt="" height="100%" width="100%"><br><br>
+                <img src="assets/projects/p1-2.jpeg" alt="" height="100%" width="100%"><br><br>
+                <img src="assets/projects/p1-3.jpeg" alt="" height="100%" width="100%"><br><br>
+                <img src="assets/projects/p1-4.jpeg" alt="" height="100%" width="100%"><br><br>
+                <img src="assets/projects/p1-5.jpeg" alt="" height="100%" width="100%">
+            </div>
+        </div>
+    </div>  
+      </div>
+ 
+<!--modal content 2-->
+
+      <div id="my-modal-2" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+        <span class="close">&times;</span>
+        <h1>Library Management System</h1>
+        </div>
+
+        <div class="modal-body">
+            <div>
+                <img src="assets/projects/p2-1.png" alt="" height="100%" width="100%"><br><br>
+                <img src="assets/projects/p2-2.png" alt="" height="100%" width="100%"><br><br>
+                <img src="assets/projects/p2-3.png" alt="" height="100%" width="100%">
+            </div>
+        </div> 
+      </div>
+</div>
+
+<!--projrct section end-->
+
+
+ <!--technology section start-->
+ <section class="technology" id="technology">
+    <h1 class="heading "> <span>Technology</span></h1>
+    <div class="exp-container">
+        <div class="sub-exp-container">
+            <h2 class="exp-sub-heading">Frontend Development</h2>
+            <div class="fbd-container"> 
+            <img src="assets/icons/react.png" alt="react" class="img-tech">
+            <img src="assets/icons/html.png" alt="html" class="img-tech">
+            <img src="assets/icons/css.svg" alt="css" class="img-tech">
+            <img src="assets/icons/bootstrap.png" alt="bootstrap" class="img-tech">
+            <img src="assets/icons/jq.jpg" alt="jquery" class="img-tech">
+            <img src="assets/icons/angular.png" alt="angular" class="img-tech">
+            <img src="assets/icons/js.png" alt="javascript" class="img-tech">
+            <img src="assets/icons/ts.png" alt="typescript" class="img-tech">
+            <img src="assets/icons/sass.png" alt="sass" class="img-tech">
+            </div>
+        </div>
+       
+        <div class="sub-exp-container">
+            <h2 class="exp-sub-heading">Backend Development</h2>
+            <div class="fbd-container">
+                <img src="assets/icons/sboot.png" alt="springboot" class="img-tech">
+                <img src="assets/icons/python.png" alt="python" class="img-tech">
+                <img src="assets/icons/java.png" alt="java" class="img-tech">
+                <img src="assets/icons/sql.png" alt="mysql" class="img-tech">
+              <img src="assets/icons/SQLite.png" alt="SQLite" class="img-tech">   
+              <img src="assets/icons/php.png" alt="php" class="img-tech">
+            </div>
+        </div>
+
+        <div class="sub-exp-container">
+            <h2 class="exp-sub-heading">Development Tools</h2>
+            <div class="fbd-container">
+                <img src="assets/icons/github.png" alt="github" class="img-tech">
+                <img src="assets/icons/git.png" alt="git" class="img-tech">
+                <img src="assets/icons/intellij.png" alt="InellijIDEA" class="img-tech">
+            <img src="assets/icons/vs.png" alt="VScode" class="img-tech">
+            <img src="assets/icons/figma.webp" alt="figma" class="img-tech">
+            </div>
+        </div>  
+    </div>
+    <div class="row">
+        <div class="counter">
+            <div class="box">
+                <span>6+</span>
+                <h3>months of experience</h3>
+            </div>
+    
+            <div class="box">
+                <span>1+</span>
+                <h3>project completed</h3>
+            </div>
+        </div>
+    </div> 
+ </section>
+<!-- technology section end-->
+
+
+<!-- scroll top button-->
+<a href="#home" class="top">
+    <img src="assets/icons/scroll.png" alt="">
+</a>
+
+ <!-- jqery cdn link -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+<!-- custom js file link -->
+   <script src="assets/main.js"></script> 
+   
+</body>
+</html>
