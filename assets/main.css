@@ -44,9 +44,14 @@ body{
     padding-left: 40rem;
 }
 
- section{
+ .home, .about, .technology{
     min-height: 100vh;
     padding: 1rem;
+ }
+
+ .project{
+     min-height: 150vh;
+     padding: 1rem;
  }
 
  .btn{
@@ -295,12 +300,14 @@ header .navbar ul li a{
     
 }
 
-.content h3{
-    font-size: 1.5rem;
+.content h2{
+    font-size: 1.8rem;
+    color: #2980b9;
+    font-weight: bold;
 }
 
 .content span{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .btn-show{
@@ -308,7 +315,7 @@ header .navbar ul li a{
     background-color: #45aaf2;
     border: none;
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     padding: 6px;
     width: 70px;
     transition: all 0.5s;
