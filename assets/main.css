@@ -258,6 +258,38 @@ header .navbar ul li a{
 }
 
 
+/*education section*/
+
+.row1{
+    padding-left: 70px;  
+    position: relative;
+    border-style: groove;
+    padding-top: 5px ;
+    padding-bottom: 5px ;
+  }
+
+  .row1 img {
+    position: absolute;
+    width:70px;
+    height:60px;
+    left: 0;
+    top: 0;
+  }
+
+.education .container .row1 h3{
+    font-size: 18px;
+}
+
+.education .container .row1 h4{
+    font-size: 15px;
+}
+
+
+.education .container .row1 P{
+    font-size: 15px;
+}
+/*education section*/
+
 /*project section*/
 
 .project .box-container
