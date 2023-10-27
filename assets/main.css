@@ -298,13 +298,14 @@ header .navbar ul li a{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 2rem 0;
+    padding: 0.5rem 0;
 }
 
 .project .box-container .box-sub-container .box{
-    height: 22rem;
+    height: 18rem;
     width: 26rem;
     border-radius: 1rem;
+    margin-top: 0rem;
     margin: 2rem;
     overflow: hidden;
     cursor: pointer;
@@ -315,16 +316,15 @@ header .navbar ul li a{
   }
 
  .content{
-        display: none;
-        position: absolute;
-        padding: 20px;
-        margin-top: 25px;
-        margin-left: 15px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-        text-align: center;  
-        justify-content: center;
-        width: 18%;
-    
+    display: none;
+    position: absolute;
+    padding: 10px;
+    margin: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;  
+    justify-content: center;
+    width: 19%;
+    height: 30%;    
 }
 
 .content h2{
