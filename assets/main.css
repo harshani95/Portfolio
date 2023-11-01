@@ -301,12 +301,15 @@ header .navbar ul li a{
     padding: 0.5rem 0;
 }
 
+ .project .box-container .box-sub-container{
+     margin-bottom: 2rem;
+ }
+
 .project .box-container .box-sub-container .box{
     height: 18rem;
     width: 26rem;
     border-radius: 1rem;
-    margin-top: 0rem;
-    margin: 2rem;
+    margin: 1rem;
     overflow: hidden;
     cursor: pointer;
 }
@@ -324,7 +327,7 @@ header .navbar ul li a{
     text-align: center;  
     justify-content: center;
     width: 19%;
-    height: 30%;    
+    height: 28%;
 }
 
 .content h2{
@@ -338,7 +341,6 @@ header .navbar ul li a{
 }
 
 .btn-show{
-    border-radius: none;
     background-color: #45aaf2;
     border: none;
     text-align: center;
@@ -347,8 +349,7 @@ header .navbar ul li a{
     width: 70px;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 7px;
-
+    margin-bottom: 2px;
 }
 
 .project .box-container .box-sub-container .box img{
@@ -479,7 +480,6 @@ h1{
 }
 
 .btn-proj {
-    
     border: 0;
     outline: 0;
     cursor: pointer;
