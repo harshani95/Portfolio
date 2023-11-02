@@ -352,6 +352,18 @@ header .navbar ul li a{
     margin-bottom: 2px;
 }
 
+ .btn-show-quiz{
+     background-color: #cf6a87;
+     border: none;
+     text-align: center;
+     font-size: 16px;
+     padding: 6px;
+     width: 100px;
+     transition: all 0.5s;
+     cursor: pointer;
+     margin-bottom: 2px;
+ }
+
 .project .box-container .box-sub-container .box img{
     height: 100%;
     width: 100%;
