@@ -326,6 +326,7 @@ header .navbar ul li a{
     text-align: center;  
     justify-content: center;
     width: 19%;
+    border: 1px solid red;
     height: 28%;
 }
 
@@ -564,6 +565,12 @@ h1{
    html{
     font-size: 50%;
    }
+
+   .content {
+    width: 35%; 
+    height: auto; 
+    }
+
 }
 
 @media(max-width:400px){
@@ -576,15 +583,10 @@ h1{
         margin: 0 3rem;
     }    
 
-    .about .row .counter .box{
-        width: 100%;
-    }
-
-    .education .box-container .box{
-        width: 100%;
-    }
-
-    .project .box-container .box {
+    .about .row .counter .box,
+    .education .box-container .box,
+    .project .box-container .box
+    {
         width: 100%;
     }
 
