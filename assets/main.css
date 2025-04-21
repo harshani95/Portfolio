@@ -501,6 +501,47 @@ h1 {
   }
 }
 
+/*certification section*/
+
+.certification ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.certification ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 12px 20px;
+  margin: 10px 0;
+
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.certification ul li:hover {
+  transform: translateX(5px);
+
+  cursor: pointer;
+}
+
+.cert-list li span {
+  flex: 1;
+  font-size: 1.8rem;
+}
+
+.cert-list li a {
+  white-space: nowrap;
+  color: #a29bfe;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
 /*scroll top button*/
 
 .top {
